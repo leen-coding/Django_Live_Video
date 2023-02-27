@@ -13,6 +13,6 @@ Then the django and udp server will be started. The port of this django is 0.0.0
 
 If you want to watch it inside other web page, plz use
 
-> "<img src="http://serverIP:7001/monitor/ " width="300" height="250" >"
+> "\<img src="http://serverIP:7001/monitor/ " width="300" height="250" \>"
 
 in template html in another django.
