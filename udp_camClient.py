@@ -2,10 +2,11 @@ import time
 from socket import *
 import cv2
 host = "192.168.0.25"
+
 port = 5005
 
 Udp_Socket = socket(AF_INET,SOCK_DGRAM)
-Udp_Socket.bind((host, 6543))
+
 video = cv2.VideoCapture(0)
 while True:
 

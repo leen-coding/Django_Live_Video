@@ -3,8 +3,7 @@ import pymongo
 import logging
 import datetime
 import sys
-print(f'params：{str(sys.argv)}')
-thisIp = str(sys.argv[1])
+
 logging.basicConfig(filename="tcp_server.log", level=logging.DEBUG,
                     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -21,7 +20,7 @@ except:
 
 Udp_Socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-Udp_Socket.bind((thisIp, 5005))
+Udp_Socket.bind(('', 5005))
 while (True):
     Recv_Data = Udp_Socket.recvfrom(1024000)
     Recv_Data = Recv_Data[0]
