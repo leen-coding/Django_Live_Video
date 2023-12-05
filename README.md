@@ -70,7 +70,7 @@ Then this part of your screen will be send to the server. you can measure the de
 
 ## View your Streaming:
 
-> Go to yourserverIP:7001/monitor/ to watch the live video.
+> Go to "yourserverIP:7001/monitor/" to watch the live video.
 > If you want to watch it inside other web page, plz use
 
 > \<img src="http://yourserverIP:7001/monitor/ " width="300" height="250" \>
