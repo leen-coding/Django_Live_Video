@@ -21,7 +21,7 @@ pip install pymongo
 
 **Install MongoDB**
 
-_Reference:  https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu_
+_Reference:  <https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu>_
 
 ```
 sudo apt-get install gnupg curl
@@ -62,15 +62,15 @@ At the cam side, modify the host ip, which means, you need to change the line 4 
 For you quick test the delay of the streaming, we also worte a script for your quick test. 
 Firstly, you still need to modify the host(server) IP in the script *speedtest.py* (line 8)
 
-Then open this link for a exact time. https://clock.zone/
+Then open this link for a exact time. <https://clock.zone/>
 
 then run it using python. The screen will turn semi-transparent and then, you should click your mouse, the position of frist click indicates the top left point of the part of the screen you want to cut. and the second means the bottom right point. The zone you select should include the *exact time *in the page you just opened.
 
-Then this part of your screen will be send to the server. you can measure the delay of the streaming by calculating the time difference between the pulling(viewing by the next step) and exact time (on your opened https://clock.zone/).
+Then this part of your screen will be send to the server. you can measure the delay of the streaming by calculating the time difference between the pulling(viewing by the next step) and exact time (on your opened <https://clock.zone/>).
 
 ## View your Streaming:
 
-> Go to "yourserverIP:7001/monitor/" to watch the live video.
+> Go to <yourserverIP:7001/monitor/> to watch the live video.
 > If you want to watch it inside other web page, plz use
 
 > \<img src="http://yourserverIP:7001/monitor/ " width="300" height="250" \>
