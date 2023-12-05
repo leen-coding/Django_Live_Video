@@ -4,7 +4,7 @@ This project is built for streaming live video through django and UDP Socket. Wi
 we can save the new image from camera into server. Then django in server retrives the last frame and render it to the web page.
 
 ## Environment Building
-Open your terminal:
+**Open your terminal:**
 ```
 # create conda env
 conda create -n Django_env python==3.9 
@@ -19,9 +19,9 @@ conda install -c anaconda django
 pip install pymongo
 ```
 
-Install MongoDB
+**Install MongoDB**
 
-## Reference:  https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu
+_Reference:  https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu_
 
 ```
 sudo apt-get install gnupg curl
@@ -40,7 +40,7 @@ sudo apt-get update
 
 sudo apt-get install -y mongodb-org
 
-#start MongoDB
+#**start MongoDB necessary before next step**
 sudo systemctl start mongod
 
 ```
